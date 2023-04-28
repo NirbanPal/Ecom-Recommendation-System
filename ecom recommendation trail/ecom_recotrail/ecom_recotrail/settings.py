@@ -75,18 +75,17 @@ WSGI_APPLICATION = "ecom_recotrail.wsgi.application"
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
-
+#use your db credentials
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'smallexceltestdb',
-        'USER' : 'root',
-        'PASSWORD' : 'mysql@123',
-        'PORT':3307,
-        'HOST' : '127.0.0.1',
+        'ENGINE': '',
+        'NAME': '',
+        'USER' : '',
+        'PASSWORD' : '',
+        'PORT':,
+        'HOST' : '',
     }
 }
-# smallexceltestdb
 
 # DATABASES = {
 #     'default': {
